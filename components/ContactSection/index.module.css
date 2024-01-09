@@ -1,0 +1,45 @@
+.contact {
+  display: flex;
+  padding: 2rem 1rem;
+  flex-flow: column wrap;
+  gap: 2rem;
+}
+
+.contact__content {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+  
+}
+
+.contact__title {
+  color: var(--primary-color);
+}
+
+.contact__links {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+
+.contact__link {
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: .2rem solid var(--primary-color);
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact__link--primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.contact__link--secondary {
+  color: var(--primary-color);
+  background-color: transparent;
+}
