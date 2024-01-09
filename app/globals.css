@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #0000ff;
+  --primary-color: #084b8a;
 }
 
 * {
@@ -12,6 +12,7 @@
 
 body {
   font-size: 1.6rem;
+  background-color: #eee;
 }
 
 h1 {
@@ -41,4 +42,8 @@ h6 {
 p,
 button {
   font-size: 1.6rem;  
+}
+
+button {
+  font-weight: bold;
 }

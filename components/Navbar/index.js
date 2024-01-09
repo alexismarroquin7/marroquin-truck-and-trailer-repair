@@ -8,7 +8,7 @@ export const Navbar = () => {
       <ul
         className={styles['nav__list']}
       >
-        <p>Marroquin Truck & Trailer Repair</p>
+        <h6>Marroquin Truck & Trailer Repair</h6>
         <button>Menu</button>
       </ul>
     </nav>
