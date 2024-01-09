@@ -17,6 +17,10 @@
   gap: 1rem;
 }
 
+.hero__title {
+  color: var(--primary-color)
+}
+
 .hero__buttons {
   display: flex;
   flex-flow: row wrap;

@@ -1,0 +1,31 @@
+.services {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 2rem 1rem;
+  gap: 2rem;
+}
+
+.services__content {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+}
+
+.services__title {
+  color: var(--primary-color);
+}
+
+.services__list {
+  display: flex;
+  flex-flow: column wrap;
+  border: .2rem solid white;
+}
+
+.services__item {
+  list-style: none;
+  padding: 1rem;
+}
+
+.services__item:nth-child(odd) {
+  background-color: white;
+}

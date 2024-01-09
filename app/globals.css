@@ -40,7 +40,8 @@ h6 {
 }
 
 p,
-button {
+button,
+li {
   font-size: 1.6rem;  
 }
 
