@@ -1,5 +1,3 @@
-import { LocationOn } from "@mui/icons-material";
-
 import styles from "./index.module.css";
 
 const businessHours = [
