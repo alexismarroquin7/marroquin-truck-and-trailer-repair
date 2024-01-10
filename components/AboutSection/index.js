@@ -14,6 +14,7 @@ export const AboutSection = () => {
   return (
   <section
     className={styles['about']}
+    id="about"
   >
     <div
       className={styles['about__content']}

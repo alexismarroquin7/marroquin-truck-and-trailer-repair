@@ -16,6 +16,7 @@ export const BillingSection = () => {
   return (
   <section
     className={styles['billing']}
+    id="billing"
   >
     <div
       className={styles['billing__content']}   

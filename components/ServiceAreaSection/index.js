@@ -23,28 +23,29 @@ const locations = [
   },
 ]
 
-export const LocationSection = () => {
+export const ServiceAreaSection = () => {
   return (
   <section
-    className={styles['location']}
+    className={styles['servicearea']}
+    id="servicearea"
   >
 
     <div
-      className={styles['location__content']}
+      className={styles['servicearea__content']}
     >
       <h3
-        className={styles['location__title']}
+        className={styles['servicearea__title']}
       >Service Area</h3>
       <p>We operate 24 hours a day, servicing the entire Bay Area. Our home base is in Gilroy, CA.</p>
     </div>
 
     <ul
-      className={styles['location__list']}
+      className={styles['servicearea__list']}
     >
       {locations.map((location, i) => (
         <li
           key={i}
-          className={styles['location__item']}
+          className={styles['servicearea__item']}
         >
           <LocationOn/>
           {location.text}

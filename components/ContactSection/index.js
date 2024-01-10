@@ -6,6 +6,7 @@ export const ContactSection = () => {
   return (
   <section
     className={styles['contact']}
+    id="contact"
   >
     <div
       className={styles['contact__content']}

@@ -4,31 +4,31 @@ import styles from "./index.module.css"
 const routes = [
   {
     title: "Home",
-    href: "#"
+    href: "/"
   },
   {
     title: "Services",
-    href: "#"
+    href: "#services"
   },
   {
     title: "Contact",
-    href: "#"
+    href: "#contact"
   },
   {
     title: "Service Area",
-    href: "#"
+    href: "#servicearea"
   },
   {
     title: "Business Hours",
-    href: "#"
+    href: "#businesshours"
   },
   {
     title: "Billing",
-    href: "#"
+    href: "#billing"
   },
   {
     title: "About Us",
-    href: "#"
+    href: "#about"
   },
 ]
 

@@ -25,6 +25,7 @@ export const ServicesSection = () => {
   return (
   <section
     className={styles['services']}
+    id="services"
   >
     <div
       className={styles['services__content']}

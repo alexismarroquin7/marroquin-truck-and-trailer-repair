@@ -35,6 +35,7 @@ export const BusinessHoursSection = () => {
   return (
   <section
     className={styles['hours']}
+    id="businesshours"
   >
     <h3
       className={styles['hours__title']}
