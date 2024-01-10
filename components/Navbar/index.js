@@ -3,10 +3,15 @@
 import { useEffect, useState } from "react";
 
 import styles from "./index.module.css"
+import { MobileMenu } from "./MobileMenu";
+import { MenuButton } from "./MenuButton";
 
 export const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
+
+  const [open, setOpen] = useState(false);
+  const toggleOpen = () => setOpen(!open);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,6 +28,7 @@ export const Navbar = () => {
   }, [prevScrollPos, visible]);
 
   return (
+    <>
     <nav
       className={`${styles['nav']} ${visible ? "" : styles['hidden']}`}
     >
@@ -30,8 +36,19 @@ export const Navbar = () => {
         className={styles['nav__list']}
       >
         <h6>Marroquin Truck & Trailer Repair</h6>
-        <button>Menu</button>
+        <MenuButton
+          open={open}
+          toggleOpen={toggleOpen}
+        />
       </ul>
     </nav>
+    <div
+      style={{marginBottom: "6.5rem"}}
+    ></div>
+    <MobileMenu
+      open={open}
+      toggleOpen={toggleOpen}
+    />
+    </>
   )
 }
