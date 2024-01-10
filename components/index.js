@@ -1,3 +1,4 @@
+export * from "./BillingSection"
 export * from "./BusinessHoursSection"
 export * from "./ContactSection"
 export * from "./HeroSection"

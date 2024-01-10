@@ -1,4 +1,4 @@
-import { BusinessHoursSection, ContactSection, HeroSection, LocationSection, ServicesSection } from "@/components"
+import { BillingSection, BusinessHoursSection, ContactSection, HeroSection, LocationSection, ServicesSection } from "@/components"
 
 export default function Home() {
   return (
@@ -8,6 +8,7 @@ export default function Home() {
       <ContactSection/>
       <LocationSection/>
       <BusinessHoursSection/>
+      <BillingSection/>
     </main>
   )
 }
