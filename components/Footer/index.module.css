@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 2rem;
+  padding: 2rem 1rem;
+
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.footer__list {
+  display: flex;
+
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer__item {
+  display: flex;
+}
+
+.footer__content {
+  display: flex;
+
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer__link {
+  /* border: 1px solid red; */
+  display: flex;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
