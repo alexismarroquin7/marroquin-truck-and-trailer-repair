@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./index.module.css"
 
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -22,19 +23,26 @@ export const HeroSection = () => {
     </div>
 
     <div
-      className={styles['hero__buttons']}
+      className={styles['hero__links']}
     >
     
-      <button
-        className={`${styles['hero__button']} ${styles['hero__button--primary']}`}
+      <Link
+        className={`${styles['hero__link']} ${styles['hero__link--primary']}`}
+        href="tel:+11111111111"
       >
         <PhoneIcon/>
-        Call Us
-      </button>
+        <p>
+          Call Us
+        </p>
+      </Link>
 
-      <button
-        className={`${styles['hero__button']} ${styles['hero__button--secondary']}`}
-      >Services</button>
+      <Link
+        className={`${styles['hero__link']} ${styles['hero__link--secondary']}`}
+        href="#services"
+      >
+        <p>Services
+        </p>
+      </Link>
     
     </div>
   </section>

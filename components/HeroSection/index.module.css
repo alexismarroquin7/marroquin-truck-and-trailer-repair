@@ -21,27 +21,28 @@
   color: var(--primary-color)
 }
 
-.hero__buttons {
+.hero__links {
   display: flex;
   flex-flow: row wrap;
   gap: 1rem;
 }
 
-.hero__button {
+.hero__link {
   display: flex;
   flex-flow: row wrap;
   gap: .5rem;
   padding: 1rem;
   border-radius: 2rem;
   border: .2rem solid var(--primary-color);
+  text-decoration: none;
 }
 
-.hero__button--primary {
+.hero__link--primary {
   background-color: var(--primary-color);
   color: white;
 }
 
-.hero__button--secondary {
+.hero__link--secondary {
   background-color: transparent;
   color: var(--primary-color);
 }
