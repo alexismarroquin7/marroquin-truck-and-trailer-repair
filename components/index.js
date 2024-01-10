@@ -1,4 +1,5 @@
 export * from "./ContactSection"
 export * from "./HeroSection"
+export * from "./LocationSection"
 export * from "./Navbar"
 export * from "./ServicesSection"
