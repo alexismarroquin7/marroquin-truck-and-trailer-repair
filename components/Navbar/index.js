@@ -35,7 +35,9 @@ export const Navbar = () => {
       <ul
         className={styles['nav__list']}
       >
-        <h6>Marroquin Truck & Trailer Repair</h6>
+        <h6
+          className={styles['nav__title']}
+        >Marroquin Truck & Trailer Repair</h6>
         <MenuButton
           open={open}
           toggleOpen={toggleOpen}
