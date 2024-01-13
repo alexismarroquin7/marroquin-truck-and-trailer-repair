@@ -2,6 +2,9 @@ import Link from "next/link";
 import styles from "./index.module.css"
 
 import PhoneIcon from '@mui/icons-material/Phone';
+import Image from "next/image";
+
+import heroImage from "../../images/hero.jpg";
 
 export const HeroSection = () => {
   return (
@@ -11,6 +14,13 @@ export const HeroSection = () => {
     <div
       className={styles['hero__image']}
     >
+      <Image
+        src={heroImage}
+        alt="hero image"
+        fill
+        objectFit="cover"
+        objectPosition="50% 60%"
+      />
     </div>
 
     <div
