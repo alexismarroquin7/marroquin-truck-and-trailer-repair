@@ -1,0 +1,29 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 2rem 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  transition: all .2s;
+  transform: translateY(0);
+  z-index: 1000;
+}
+
+.nav__title {
+  width: 50%;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.nav__list {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hidden {
+  transform: translateY(-100%)
+}

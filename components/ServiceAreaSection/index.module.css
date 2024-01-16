@@ -1,0 +1,39 @@
+.servicearea {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 2rem 1rem;
+  gap: 2rem;
+}
+
+.servicearea__content {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+}
+
+.servicearea__title {
+  color: var(--primary-color);
+}
+
+.servicearea__list {
+  display: flex;
+  flex-flow: column wrap;
+  border: .2rem solid white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.servicearea__item {
+  list-style: none;
+  padding: 1rem;
+
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: .5rem;
+}
+
+.servicearea__item:nth-child(odd) {
+  background-color: white;
+}

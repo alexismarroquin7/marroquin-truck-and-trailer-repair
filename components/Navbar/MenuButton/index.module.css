@@ -1,0 +1,47 @@
+.menubutton {
+  background-color: transparent;
+  border: 0;
+}
+
+.menubutton__svg {
+  width: 3rem;
+  height: 3rem;
+  fill: none;
+}
+
+.menubutton__path {
+  stroke: var(--primary-color);
+  stroke-width: 10;
+  transition: all .2s;
+}
+
+.menubutton__pathA {
+  d: path("M 0 10 100 10");
+}
+
+.menubutton__pathB {
+  d: path("M 0 50 100 50");
+}
+
+.menubutton__pathC {
+  d: path("M 0 90 100 90");
+}
+
+.menubutton__pathAOpen,
+.menubutton__pathBOpen,
+.menubutton__pathCOpen {
+  stroke: #ff0000;
+}
+
+.menubutton__pathAOpen {
+  d: path("M 0 10 100 90");
+
+}
+
+.menubutton__pathBOpen {
+  opacity: 0;
+}
+
+.menubutton__pathCOpen {
+  d: path("M 0 90 100 10");
+}
