@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import styles from "./index.module.css"
 import { MobileMenu } from "./MobileMenu";
 import { MenuButton } from "./MenuButton";
+import Link from "next/link";
 
 export const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -35,9 +36,12 @@ export const Navbar = () => {
       <ul
         className={styles['nav__list']}
       >
-        <h6
+        <Link
+          href="/"
           className={styles['nav__title']}
-        >Marroquin Truck & Trailer Repair</h6>
+        >
+          <h6>Marroquin Truck & Trailer Repair</h6>
+        </Link>
         <MenuButton
           open={open}
           toggleOpen={toggleOpen}

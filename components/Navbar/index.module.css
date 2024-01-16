@@ -12,6 +12,8 @@
 
 .nav__title {
   width: 50%;
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
 .nav__list {

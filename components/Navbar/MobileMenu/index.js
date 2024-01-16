@@ -13,17 +13,13 @@ export const MobileMenu = ({open, toggleOpen}) => {
       className={styles['mobilemenu__list']}
     >
       {routes.map((route, i) => (
-        <li
+        <Link
           key={i}
-          className={styles['mobilemenu__item']}
+          href={route.href}
+          className={styles['mobilemenu__link']}
         >
-          <Link
-            href={route.href}
-            className={styles['mobilemenu__link']}
-          >
-            <p>{route.title}</p>
-          </Link>
-        </li>
+          <p>{route.title}</p>
+        </Link>
       ))}
     </ul>
   </div>

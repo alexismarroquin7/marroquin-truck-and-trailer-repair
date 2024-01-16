@@ -2,14 +2,20 @@ import { AboutSection, BillingSection, BusinessHoursSection, ContactSection, Her
 
 export default function Home() {
   return (
-    <main>
-      <HeroSection/>
-      <ServicesSection/>
-      <ContactSection/>
-      <ServiceAreaSection/>
-      <BusinessHoursSection/>
-      <BillingSection/>
-      <AboutSection/>
+    <main
+      className="main"
+    >
+      <div
+        className="main__content"
+      >
+        <HeroSection/>
+        <ServicesSection/>
+        <ContactSection/>
+        <ServiceAreaSection/>
+        <BusinessHoursSection/>
+        <BillingSection/>
+        <AboutSection/>
+      </div>
     </main>
   )
 }

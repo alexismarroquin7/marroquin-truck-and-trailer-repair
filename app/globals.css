@@ -48,3 +48,17 @@ li {
 button {
   font-weight: bold;
 }
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+
+@media (min-width: 992px) {
+  .main__content {
+    width: 50%;
+  }
+}
